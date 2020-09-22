@@ -1,0 +1,40 @@
+* {
+	font-family: helvetica, sans-serif;
+	box-sizing:border-box;
+	margin-left: 5px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type=text] {
+	margin-bottom: 10px;
+}
+
+form input[type=radio] + label {
+	display: inline;
+}
+
+form input[type=radio] {
+	margin-bottom: 10px;
+}
+
+form textarea {
+	height: 4rem;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form button { 
+	padding: 10px;
+}
+
+#brief-description{
+	margin-top: 10px;
+}

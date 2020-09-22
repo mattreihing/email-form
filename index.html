@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" inital-scale="1">
+		<title>Test Email Form</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body>
+		<section>
+			<h1>Test Form</h1>
+				<form action="https://formspree.io/matt.reih@gmail.com" method="post">
+					<!-- Name -->
+					<label for="name">Name:</label>
+					<input id="name" type="text" name="name" autofocus="on" placeholder="Type your name here" required>
+					
+					<!-- Email -->
+					<label for="email">Email:</label>
+					<input id="email" type="text" name="email" placeholder="Type your email here" required>
+
+					<!-- Reason for Contact Radio Buttons -->
+					<h2>Reason for Contact</h2>
+					
+					<input id="personal-project" name="reason-for-contact" type="radio" value="personal-project">
+					<label for="personal-project">Personal Project</label><br>
+
+					<input id="professional-reason" name="reason-for-contact" type="radio" value="professional-reason">
+					<label for="professional-reason">Professional Reason</label><br>
+
+					<!-- Description Field -->
+					<label for="brief-description" id="brief-description">Brief Description for Contact:</label>
+					<textarea id="brief-description" name="brief-descripton" maxlength="200" placeholder="What do you have in mind?"></textarea><br>
+
+					<!-- Submit and Reset Buttons -->
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</form>
+
+		</section>
+	</body>
+</html>
